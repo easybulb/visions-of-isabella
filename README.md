@@ -35,6 +35,9 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 ### About Page
 - **User Story**: As a visitor, I can access the About page to learn more about the artist, Isabella, her background, and her artistic philosophy, so that I can understand the context and inspiration behind her work.
 
+### Gallery
+- **User Story**: As a visitor, I can access the gallery page to view a collection of the artist's artworks, categorized by medium or style, so that I can explore the artist's work in an organized and visually appealing manner.
+
 ### Contact Page
 - **User Story**: As a visitor, I can access a contact page where I can send inquiries or requests to the artist, so that I can communicate directly with them for commissions or other purposes.
 
