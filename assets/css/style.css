@@ -185,6 +185,21 @@ footer p {
         margin-top: 20px;
     }
 
+    /*--- Footer ---*/
+    #socials {
+        justify-content: left;
+        margin-left: 40px;
+        gap: 1.5rem;
+    }
+
+    footer p {
+        text-align: left;
+        margin-left: 2.5rem;
+        font-size: 0.7rem;
+        padding-top: 5px;
+    }
+
+
 
     /* ------------------------------------ Gallery-- */
     .responsive {
