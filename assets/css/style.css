@@ -64,8 +64,39 @@ header #logo span:hover {
     font-size: 150%;
     font-weight: 300;
     list-style-type: none;
-    margin-top: 88px;
+    /* ----- Moved Navbar Dropdown up and down-- */
+    margin-top: 60%;
 }
+
+/* ------------------------------------ Navbar Dropdown-- */
+nav {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    height: 100%;
+    top: 80px;
+    /* Display property to none so it can only open when clicked on */
+    display: none;
+}
+
+/* ------------------------------------ Nav Toggle-- */
+#nav-toggle:checked~nav {
+    display: block
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+.nav-toggle-label:hover {
+    color: gray;
+}
+
+
 /* ------------------------------------ Main-- */
 main {
     background-color: #fafafa;
