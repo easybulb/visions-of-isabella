@@ -10,3 +10,21 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 - [Deployment](#deployment)
 - [Credits/Technologies Used](#creditstechnologies-used)
 - [Future Features](#future-features)
+
+## UX Design (Wireframe)
+
+### Homepage Wireframe
+
+#### On Larger screens (Tablets, dektops and laptops)
+<img src="./assets/images/Homepage-large.png">
+
+#### On mobile
+<img src="./assets/images/Homepage-mobile.png">
+
+### Gallery Wireframe
+
+### About Wireframe
+
+### Contact Wireframe
+
+## User Stories
