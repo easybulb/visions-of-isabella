@@ -16,10 +16,10 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 ### Homepage Wireframe
 
 #### On Larger screens (Tablets, dektops and laptops)
-<img src="./assets/images/Homepage-large.png">
+<img src="../visions-of-isabella/assets/images/Homepage-large1.png" style="width: 50%">
 
 #### On mobile
-<img src="./assets/images/Homepage-mobile.png">
+<img src="./assets/images/Homepage-mobile1.png" style="width: 30%">
 
 ### Gallery Wireframe
 
