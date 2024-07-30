@@ -1,90 +1,35 @@
-
-
-
-=======
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #fafafa;
-    /* -----Generic colour  Header */
-    color: black;
-    font-family: "Rubik", sans-serif;
-}
-header {
-    background: url("../css/images/abstract-art.jpg");
-    background-position: center;
-    background-color: grey;
-    color: #fafafa;
-    padding: 1rem 1rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 90vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-header a {
-    text-decoration: none;
-    color: #fafafa;
-    margin-top: 15px;
-
-}
-header nav a:hover {
-    color: rgb(152, 150, 150);
-}
-#logo span {
-    font-size: 140%;
-    font-family: "Anton", sans-serif;
-    text-align: center;
-    width: 100%;
-    color: #ffffff;
-    letter-spacing: 1px;
-    border: 2px solid #fafafa;
-    padding: 7px;
-    border-radius: 25px 50px;
-}
-/* ------------------------------------ Main-- */
-main {
-    background-color: #fafafa;
-    flex: 1 0 auto;
-}
-/* ------------------------------------ Footer-- */
-footer {
-    background-color: rgb(22, 21, 21);
-    color: #fafafa;
-}
-#socials {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 0;
-    margin-bottom: -8px;
-}
-#socials li {
-list-style-type: none;
-}
-#socials li a {
-    color: #0ea3f3;
-    font-size: 1.5rem;
-}
-
-/* ------------------------------------ Gallery-- */
-
 /*--gallery--*/
   .gallery img {
-    max-height: 200px;
+    max-height: 300px;
+    max-width: 300px;
   }
 
   .responsive {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: minmax(100px, auto);
-    column-gap: 100px;
+    column-gap: 125px;
     row-gap: 50px;
 }
+
+
+
+@media screen and (max-width: 500px) {
+    .responsive {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 300px;
+        row-gap: 50px;
+    }
+    
+    .gallery img {
+        max-width: 450px;
+        height: auto;
+      }
+
+  }
+
+  .centre {
+    text-align: center;
+  }
