@@ -12,8 +12,48 @@ body {
 }
 header {
     background: url("../css/images/abstract-art.jpg");
-background-position: center;
+    background-position: center;
+    background-color: grey;
+    color: #fafafa;
+    padding: 1rem 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header a {
+    text-decoration: none;
+    color: #fafafa;
+    margin-top: 15px;
 
+}
+header nav a:hover {
+    color: rgb(152, 150, 150);
+}
+#logo span {
+    font-size: 140%;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    letter-spacing: 1px;
+    border: 2px solid #fafafa;
+    padding: 7px;
+    border-radius: 25px 50px;
+}
+/* ------------------------------------ Main-- */
+main {
+    background-color: #fafafa;
+    flex: 1 0 auto;
+}
+/* ------------------------------------ Footer-- */
+footer {
+    background-color: rgb(22, 21, 21);
+    color: #fafafa;
 }
 #socials {
     text-align: center;
