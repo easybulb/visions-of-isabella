@@ -49,3 +49,17 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 
 ### Footer
 - **User Story**: As a visitor, I can access the footer on every page of the website to find copyright information, social media links, and additional navigation options, so that I can easily access important information and navigate the site.
+
+## Features
+
+- **Gallery Section**: A curated collection of Isabella's artwork, categorized by medium and style.
+
+- **About the Artist**: Learn about Isabella, her background, and her artistic philosophy.
+
+- **Contact Information**: Reach out to Isabella for inquiries, commissions, or purchases.
+
+- **Responsive Design**: The site is optimized for viewing on all devices, ensuring a seamless experience for all users.
+
+- **Favicon**: A recognizable icon that appears in the browser tab, enhancing brand identity.
+
+- **Social Links Hover Effects**: Interactive hover effects on social media links for better user engagement.
