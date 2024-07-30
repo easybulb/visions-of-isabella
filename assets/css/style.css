@@ -1,6 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+/* ------------------------ Universal selector --- */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,8 @@ body {
     font-family: "Rubik", sans-serif;
 }
 header {
-    background: url("../css/images/abstract-art.jpg");
+    background: url("../images/head-portrait.png");
+    /* --- Use this to position the image -- */
     background-position: center;
     background-color: grey;
     color: #fafafa;
@@ -26,7 +28,7 @@ header {
     background-repeat: no-repeat;
     position: relative;
     height: 90vh;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -50,6 +52,19 @@ header nav a:hover {
     border: 2px solid #fafafa;
     padding: 7px;
     border-radius: 25px 50px;
+}
+
+header #logo span:hover {
+    text-decoration: none;
+    border: 2px solid grey;
+    color: grey;
+}
+
+#menu {
+    font-size: 150%;
+    font-weight: 300;
+    list-style-type: none;
+    margin-top: 88px;
 }
 /* ------------------------------------ Main-- */
 main {
