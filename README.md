@@ -35,6 +35,9 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 ### About Page
 - **User Story**: As a visitor, I can access the About page to learn more about the artist, Isabella, her background, and her artistic philosophy, so that I can understand the context and inspiration behind her work.
 
+### Gallery
+- **User Story**: As a visitor, I can access the gallery page to view a collection of the artist's artworks, categorized by medium or style, so that I can explore the artist's work in an organized and visually appealing manner.
+
 ### Contact Page
 - **User Story**: As a visitor, I can access a contact page where I can send inquiries or requests to the artist, so that I can communicate directly with them for commissions or other purposes.
 
@@ -46,3 +49,27 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 
 ### Footer
 - **User Story**: As a visitor, I can access the footer on every page of the website to find copyright information, social media links, and additional navigation options, so that I can easily access important information and navigate the site.
+
+## Features
+
+- **Gallery Section**: A curated collection of Isabella's artwork, categorized by medium and style.
+
+- **About the Artist**: Learn about Isabella, her background, and her artistic philosophy.
+
+- **Contact Information**: Reach out to Isabella for inquiries, commissions, or purchases.
+
+- **Responsive Design**: The site is optimized for viewing on all devices, ensuring a seamless experience for all users.
+
+- **Favicon**: A recognizable icon that appears in the browser tab, enhancing brand identity.
+
+- **Social Links Hover Effects**: Interactive hover effects on social media links for better user engagement.
+
+## Credits/Technologies Used
+
+- **HTML5**: For structuring the content on the web.
+- **CSS3**: For styling the website.
+- **Love Running Project**: For inspiration on toggle navigation menu on mobile.
+- **Git & GitHub**: For version control and hosting the project.
+- **Canva**: For creating and optimizing images and graphics.
+- **Chatgpt AI**: For images.
+- **Google Fonts**: For typography.
