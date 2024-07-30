@@ -63,3 +63,13 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 - **Favicon**: A recognizable icon that appears in the browser tab, enhancing brand identity.
 
 - **Social Links Hover Effects**: Interactive hover effects on social media links for better user engagement.
+
+## Credits/Technologies Used
+
+- **HTML5**: For structuring the content on the web.
+- **CSS3**: For styling the website.
+- **Love Running Project**: For inspiration on toggle navigation menu on mobile.
+- **Git & GitHub**: For version control and hosting the project.
+- **Canva**: For creating and optimizing images and graphics.
+- **Chatgpt AI**: For images.
+- **Google Fonts**: For typography.
