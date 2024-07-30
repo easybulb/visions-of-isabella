@@ -153,8 +153,19 @@ footer p {
 }
 
 
+/* ------------------------------------ Media Queries for tablets-- */
+@media screen and (max-width: 431px) {
+    /*--- Header ---*/
+    header {
+        background: url("../images/head-landscape.png");
+        background-size: cover;
+        background-position: center;
+        height: 95vh;
+        object-fit: cover;
+    }
 
-@media screen and (max-width: 500px) {
+
+    /* ------------------------------------ Gallery-- */
     .responsive {
         display: grid;
         grid-template-columns: 1fr;
