@@ -15,3 +15,17 @@ header {
 background-position: center;
 
 }
+#socials {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin-bottom: -8px;
+}
+#socials li {
+list-style-type: none;
+}
+#socials li a {
+    color: #0ea3f3;
+    font-size: 1.5rem;
+}
