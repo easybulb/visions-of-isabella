@@ -154,14 +154,35 @@ footer p {
 
 
 /* ------------------------------------ Media Queries for tablets-- */
-@media screen and (max-width: 431px) {
+@media screen and (min-width: 431px) {
     /*--- Header ---*/
     header {
         background: url("../images/head-landscape.png");
         background-size: cover;
         background-position: center;
         height: 95vh;
-        object-fit: cover;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #menu {
+        display: flex;
+        gap: 0rem;
+        justify-content: flex-end;
+        margin-top: -37px;
+        font-size: 110%;
+        font-weight: 300;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header a, header > span {
+        margin-left: 30px;
+        margin-top: 20px;
     }
 
 
