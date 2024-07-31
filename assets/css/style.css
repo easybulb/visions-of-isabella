@@ -211,24 +211,6 @@ footer p {
 }
 
 
-/* ------------------------------------ Media Queries for tablets-- */
-@media screen and (min-width: 431px) {
-
-/* ------------------------------------ Gallery-- */
-
-/*--gallery--*/
-  .gallery img {
-    max-height: 300px;
-    max-width: 300px;
-  }
-
-  .responsive {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    column-gap: 125px;
-    row-gap: 50px;
-}
 
 .centre {
     text-align: center;
@@ -309,10 +291,17 @@ footer p {
 
   /*-- Gallery --*/
   .gallery img {
-    max-height: 200px;
     max-height: 300px;
     max-width: 300px;
   }
+
+  .responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 125px;
+    row-gap: 50px;
+}
 
   .gallery-responsive {
     display: grid;
@@ -323,31 +312,16 @@ footer p {
     row-gap: 50px;
 }
 
-
-
-@media screen and (min-width: 431px) {
-    .gallery-responsive {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: minmax(100px, auto);
-        column-gap: 300px;
-        row-gap: 50px;
-    }
-
-    .gallery img {
-        max-width: 450px;
-        height: auto;
-      }
-
-  }
+}
 
 
   .gallery-centre {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
 
-#woman-artist h1, #woman-artisth2 {
+#woman-artist h1, #woman-artist h2 {
     text-align: left;
     color: #fafafa;
   }
@@ -360,7 +334,7 @@ footer p {
     position: relative;
     left:25px;
     bottom: 20px;
-    font-family: Anton ,sans-serif;
+    font-family: "Rubik" ,sans-serif;
     font-size: 1rem;
   }
   #woman-artist {
