@@ -313,7 +313,7 @@ footer p {
       }
 /*---------------------------------------About-Text styling--*/
   }
-h1,h2 {
+.headings {
     text-align: left;
     color: #fafafa;
   }
