@@ -92,8 +92,7 @@ header #logo span:hover {
     font-size: 150%;
     font-weight: 300;
     list-style-type: none;
-    /* ----- Moved Navbar Dropdown up and down-- */
-    margin-top: 50%;
+    margin-top: 50%; /* ----- Moves Navbar Dropdown up and down on mobile-- */
 }
 
 /* ------------------------------------ Navbar Dropdown-- */
@@ -102,9 +101,8 @@ nav {
     width: 90%;
     text-align: center;
     height: 100%;
-    top: 80px;
-    /* Display property to none so it can only open when clicked on */
-    display: none;
+    top: 80px; /* This moves nav menu up and down on large screens */
+    display: none; /* Display property to none so it can only open when clicked on */
 }
 
 /* ------------------------------------ Nav Toggle-- */
