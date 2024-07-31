@@ -277,7 +277,7 @@ footer p {
 
 
 
-  /*--gallery--*/
+  /*-- Gallery --*/
   .gallery img {
     max-height: 200px;
     max-height: 300px;
@@ -311,6 +311,7 @@ footer p {
 
   }
 
-  .centre {
+  .gallery-centre {
     text-align: center;
+    padding-top: 50px;
   }
