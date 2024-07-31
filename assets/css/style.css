@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     background-color: #fafafa;
     /* -----Generic colour  Header */
-    color: black;
+    color: #000000;
     font-family: "Rubik", sans-serif;
 }
 
@@ -171,7 +171,7 @@ main {
 .featured-artwork p {
     text-align: center;
     font-size: 0.9rem;
-    color: black;
+    color: #000000;
     padding: 0 10px;
 }
 
