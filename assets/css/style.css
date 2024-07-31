@@ -31,7 +31,7 @@ h1, h2 {
 
 /* Header for home */
 #header-home {
-    background: url("../images/head-portrait.png");
+    background: url("../images/hero-mobile.png");
     /* --- Use this to position the image -- */
     background-position: center;
     background-color: grey;
@@ -237,7 +237,7 @@ footer p {
 @media screen and (min-width: 431px) {
     /*--- Header for Home ---*/
     #header-home {
-        background: url("../images/head-landscape.png");
+        background: url("../images/hero-large.png");
         background-size: cover;
         background-position: center;
         height: 95vh;
