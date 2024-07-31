@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 /* ------------------------ Header --- */
-header {
+#header-home {
     background: url("../images/head-portrait.png");
     /* --- Use this to position the image -- */
     background-position: center;
@@ -44,12 +44,14 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: #fafafa;
     margin-top: 15px;
 
 }
+
 header nav a:hover {
     color: rgb(152, 150, 150);
 }
@@ -215,7 +217,7 @@ footer p {
 /* ------------------------------------ Media Queries for tablets-- */
 @media screen and (min-width: 431px) {
     /*--- Header ---*/
-    header {
+    #header-home {
         background: url("../images/head-landscape.png");
         background-size: cover;
         background-position: center;
