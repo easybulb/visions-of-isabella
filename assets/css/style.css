@@ -93,7 +93,7 @@ header #logo span:hover {
     font-weight: 300;
     list-style-type: none;
     /* ----- Moved Navbar Dropdown up and down-- */
-    margin-top: 60%;
+    margin-top: 50%;
 }
 
 /* ------------------------------------ Navbar Dropdown-- */
@@ -102,7 +102,7 @@ nav {
     width: 90%;
     text-align: center;
     height: 100%;
-    top: 80px;
+    top: 50px;
     /* Display property to none so it can only open when clicked on */
     display: none;
 }
