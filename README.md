@@ -68,6 +68,8 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 
 - **HTML5**: For structuring the content on the web.
 - **CSS3**: For styling the website.
+- **almostreal.me**: For project idea inspiration.
+- **Optimizilla**: For image optimization.
 - **Love Running Project**: For inspiration on toggle navigation menu on mobile.
 - **Git & GitHub**: For version control and hosting the project.
 - **Canva**: For creating and optimizing images and graphics.

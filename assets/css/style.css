@@ -1,37 +1,72 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+/* ------------------------ Universal selector --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* ------------------------------------ General style-- */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #fafafa;
     /* -----Generic colour  Header */
-    color: black;
+    color: #000000;
     font-family: "Rubik", sans-serif;
 }
-header {
-    background: url("../css/images/abstract-art.jpg");
+
+h1, h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px;
+}
+
+/* ------------------------------- Header --- */
+
+/* Header for home */
+#header-home {
+    background: url("../images/hero-mobile.png");
+    /* --- Use this to position the image -- */
     background-position: center;
-    background-color: grey;
+    background-color: #000000;
     color: #fafafa;
     padding: 1rem 1rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 90vh;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+/* Header for the other pages */
+#header-general {
+    background-color: #000000;
+    color: #fafafafa;
+    padding: 1rem 1rem;
+    position: relative;
+    height: 13vh;
+    min-height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 header a {
     text-decoration: none;
     color: #fafafa;
     margin-top: 15px;
 
 }
+
 header nav a:hover {
     color: rgb(152, 150, 150);
 }
@@ -44,16 +79,108 @@ header nav a:hover {
     letter-spacing: 1px;
     border: 2px solid #fafafa;
     padding: 7px;
-    border-radius: 25px 50px;
+    border-radius: 20px;
 }
+
+header #logo span:hover {
+    text-decoration: none;
+    border: 2px solid rgb(149, 148, 148);
+    color: rgb(149, 148, 148);
+}
+
+#menu {
+    font-size: 150%;
+    font-weight: 300;
+    list-style-type: none;
+    margin-top: 50%; /* ----- Moves Navbar Dropdown up and down on mobile-- */
+}
+
+/* ------------------------------------ Navbar Dropdown-- */
+nav {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    height: 100%;
+    top: 80px; /* This moves nav menu up and down on large screens */
+    display: none; /* Display property to none so it can only open when clicked on */
+}
+
+/* ------------------------------------ Nav Toggle-- */
+#nav-toggle:checked~nav {
+    display: block
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+.nav-toggle-label:hover {
+    color: gray;
+}
+
+
 /* ------------------------------------ Main-- */
 main {
     background-color: #fafafa;
     flex: 1 0 auto;
 }
+
+#welcome-section {
+    padding: 0 20px;
+}
+
+#feature-section {
+    padding: 5px;
+}
+
+.featured-artwork {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.featured-artwork article {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.featured-artwork img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.featured-artwork h3 {
+    margin: 5px 0 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.featured-artwork p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #000000;
+    padding: 0 10px;
+}
+
+.feature-end-container {
+    padding: 20px;
+}
+
+
 /* ------------------------------------ Footer-- */
 footer {
-    background-color: rgb(22, 21, 21);
+    background-color: #000000;
     color: #fafafa;
 }
 #socials {
@@ -63,12 +190,24 @@ footer {
     padding: 1rem 0;
     margin-bottom: -8px;
 }
+
 #socials li {
 list-style-type: none;
 }
+
 #socials li a {
-    color: #0ea3f3;
+    color: #fcae04;
     font-size: 1.5rem;
+}
+
+#socials li a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    padding-bottom: 10px;
 }
 
 /* ------------------------------------ Gallery-- */
@@ -87,9 +226,79 @@ list-style-type: none;
     row-gap: 50px;
 }
 
+.centre {
+    text-align: center;
+  }
 
 
-@media screen and (max-width: 500px) {
+/* ------------------------------------ Media Queries for tablets-- */
+@media screen and (min-width: 431px) {
+    /*--- Header for Home ---*/
+    #header-home {
+        background: url("../images/hero-large.png");
+        background-size: cover;
+        background-position: center;
+        height: 95vh;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #menu {
+        display: flex;
+        gap: 0rem;
+        justify-content: flex-end;
+        margin-top: -37px;
+        font-size: 110%;
+        font-weight: 300;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header a, header > span {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    /*--- Main ---*/
+    .feature items container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        overflow-y: auto;
+    }
+    
+    .featured-artwork article {
+        flex: 1 0 auto; /* Allow articles to grow and shrink as needed */
+        text-align: center;
+        margin: 0 10px; /* Add spacing between items */
+    }
+
+    .featured-artwork img {
+        max-height: 300px;
+        width: 300px;
+    }
+
+    /*--- Footer ---*/
+    #socials {
+        justify-content: left;
+        margin-left: 40px;
+        gap: 1.5rem;
+    }
+
+    footer p {
+        text-align: left;
+        margin-left: 2.5rem;
+        font-size: 0.7rem;
+        padding-top: 5px;
+    }
+
+
+
+    /* ------------------------------------ Gallery-- */
     .responsive {
         display: grid;
         grid-template-columns: 1fr;
@@ -103,8 +312,4 @@ list-style-type: none;
         height: auto;
       }
 
-  }
-
-  .centre {
-    text-align: center;
   }
