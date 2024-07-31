@@ -102,7 +102,7 @@ nav {
     width: 90%;
     text-align: center;
     height: 100%;
-    top: 50px;
+    top: 80px;
     /* Display property to none so it can only open when clicked on */
     display: none;
 }
