@@ -4,68 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visions Of Isabella</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A brief description of your page for SEO purposes">
+    <meta name="keywords"
+        content="art, artist, exhibition, artwork, isabella turner, art showcase, creative art, portraits, art exhibition">
+    <meta name="author" content="Visions Team - Henry Ofodieze, Charles M and Florin Niculcea">
+    <title>Visions of Isabella</title>
     <!--Css File Link-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!--Header-->
-    <header aria-label="Header background image of Isabellas latest work">
-        <a id="logo" href="index.html" aria-label="Website logo (Opens homepage)">
+
+    <!----------------- Header ------------->
+    <header id="header-home" aria-label="Header background image of Isabellas latest work">
+        <a href="index.html" id="logo" aria-label="Website logo (Opens the homepage)">
             <span>Visions of Isabella</span>
-            <!--Nav-->
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html" aria-label="Menu Home link (Opens homepage)">Home</a></li>
-                    <li><a href="#" aria-label="Menu Gallery link (Opens gallery page)">Gallery</a></li>
-                    <li><a href="#" aria-label="Menu Contact link (Opens contact us page)">Contact</a></li>
-                </ul>
-            </nav>
-            <!--Main-->
-            <main>
-                <section>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, molestias repellat dolor cum
-                        architecto
-                        quisquam, veritatis inventore et dolorum iste veniam voluptatibus molestiae rem saepe quia. Vero
-                        odio
-                        qui ut?</p>
-                </section>
-                <section>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis magni dolores
-                        perspiciatis nam
-                        autem aliquid fugit dolorem dolor eaque delectus amet officia laboriosam, quo nemo ipsum beatae
-                        ratione
-                        accusantium!</p>
-                </section>
-            </main>
-            <!--Footer-->
-            <footer>
-                <ul id="socials">
-                    <li><a href="#" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (Opens Facebook website on a new browser)"><i
-                                class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (Opens Twitter website on a new browser)"><i
-                                class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#" target="_blank" rel="noopener"
-                            aria-label="Visit our Pinterest page (Opens Pinterest website on a new browser)"><i
-                                class="fa-brands fa-pinterest"></i></a></li>
-                    <li><a href="#" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (Opens Instagram website on a new browser)"><i
-                                class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank" rel="noopener"
-                            aria-label="Visit our Youtube page (Opens Youtube website on a new browser)"><i
-                                class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-                <!--Fa Script-->
-                <script src="https://kit.fontawesome.com/6868cc9595.js" crossorigin="anonymous"></script>
-                 <!-- Link to a Bootstrap JavaScript cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
+        </a>
+        <!----------------- Nav toggle ------------->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" aria-label="Menu Home link (Opens the Homepage)">Home</a></li>
+                <li><a href="about.html" aria-label="Menu About link (Opens the About page)">About</a></li>
+                <li><a href="gallery.html" aria-label="Menu Gallery link (Opens the Gallery page)">Gallery</a></li>
+                <li><a href="contact.html" aria-label="Menu Contact link (Opens the Contact page)">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!----------------- Main ------------->
+    <main>
+        <section id="welcome-section">
+            <h1>Welcome</h1>
+            <p>
+                Welcome to Visions of Isabella, where art meets imagination. Discover the enchanting world of Isabella
+                Turner’s creations, each piece a reflection of intricate detail and profound emotion. Our collection
+                features a diverse range of artwork from stunning portraits to innovative artistic expressions,
+                showcasing Isabella's unique vision and creative prowess.
+            </p>
+        </section>
+        <section id="feature-section">
+            <h2>NEW</h2>
+            <div class="feature items container">
+                <div>
+                    <article class="featured-artwork">
+                        <img src="./assets/images/feature-image1.png" alt="alt text here">
+                        <h3>Title goes here</h3>
+                        <p>Brief desc goes here</p>
+                    </article>
+                </div>
+                <div>
+                    <article class="featured-artwork">
+                        <img src="./assets/images/feature-image2.png" alt="alt text here">
+                        <h3>Title goes here</h3>
+                        <p>Brief desc goes here</p>
+                    </article>
+                </div>
+                <div>
+                    <article class="featured-artwork">
+                        <img src="./assets/images/feature-image3.png" alt="alt text here">
+                        <h3>Title goes here</h3>
+                        <p>Brief desc goes here</p>
+                    </article>
+                </div>
+                <div>
+                    <article class="featured-artwork">
+                        <img src="./assets/images/feature-image4.png" alt="alt text here">
+                        <h3>Title goes here</h3>
+                        <p>Brief desc goes here</p>
+                    </article>
+                </div>
+            </div>
+            <div class="feature-end-container">
+                <p>
+                    Be sure to check back regularly as we update this section with new and exciting artwork. Whether you’re looking for inspiration or a new piece to add to your collection, our featured artwork promises to delight and inspire.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!----------------- Footer------------->
+    <footer>
+        <ul id="socials">
+            <li><a href="http://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (Opens Facebook website on a new browser)"><i
+                        class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (Opens Twitter website on a new browser)"><i
+                        class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="http://pinterest.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Pinterest page (Opens Pinterest website on a new browser)"><i
+                        class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href="http://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (Opens Instagram website on a new browser)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="http://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (Opens Youtube website on a new browser)"><i
+                        class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <p>&copy; 2024 Visions Team. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/f40ce1e09e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

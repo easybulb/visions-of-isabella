@@ -16,10 +16,10 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 ### Homepage Wireframe
 
 #### On Larger screens (Tablets, dektops and laptops)
-<img src="./assets/images/Homepage-large1.png" style="width: 50%">
+<img src="./docs/Homepage-large1.png" style="width: 50%">
 
 #### On mobile
-<img src="./assets/images/Homepage-mobile1.png" style="width: 30%">
+<img src="./docs/Homepage-mobile1.png" style="width: 30%">
 
 ### Gallery Wireframe
 
@@ -68,6 +68,8 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 
 - **HTML5**: For structuring the content on the web.
 - **CSS3**: For styling the website.
+- **almostreal.me**: For project idea inspiration.
+- **Optimizilla**: For image optimization.
 - **Love Running Project**: For inspiration on toggle navigation menu on mobile.
 - **Git & GitHub**: For version control and hosting the project.
 - **Canva**: For creating and optimizing images and graphics.
