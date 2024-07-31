@@ -210,21 +210,7 @@ footer p {
     padding-bottom: 10px;
 }
 
-/* ------------------------------------ Gallery-- */
 
-/*--gallery--*/
-  .gallery img {
-    max-height: 300px;
-    max-width: 300px;
-  }
-
-  .responsive {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    column-gap: 125px;
-    row-gap: 50px;
-}
 
 .centre {
     text-align: center;
@@ -233,6 +219,7 @@ footer p {
 
 /* ------------------------------------ Media Queries for tablets -- */
 @media screen and (min-width: 432px) {
+
     /*--- Header for Home ---*/
     #header-home {
         background: url("../images/hero-large.png");
@@ -302,20 +289,36 @@ footer p {
 
 
 
-    /* ------------------------------------ Gallery-- */
-    .responsive {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: minmax(100px, auto);
-        column-gap: 300px;
-        row-gap: 50px;
-    }
-    
-    .gallery img {
-        max-width: 450px;
-        height: auto;
-      }
+  /*-- Gallery --*/
+  .gallery img {
+    max-height: 300px;
+    max-width: 300px;
+  }
 
+  .responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 125px;
+    row-gap: 50px;
+}
+
+  .gallery-responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 100px;
+    column-gap: 125px;
+    row-gap: 50px;
+}
+
+}
+
+
+  .gallery-centre {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
 #woman-artist h1, #woman-artist h2 {
@@ -338,4 +341,5 @@ footer p {
     background-image: url("../images/woman-artist2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
   }
