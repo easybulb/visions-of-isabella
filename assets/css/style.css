@@ -315,13 +315,15 @@ footer p {
         max-width: 450px;
         height: auto;
       }
-/*---------------------------------------About-Text styling--*/
+
   }
-h1,h2 {
+
+#woman-artist h1, #woman-artisth2 {
     text-align: left;
     color: #fafafa;
   }
-  p {
+
+  #woman-artist p {
     width: 40%;
     height: 50%;
     color: #fff6f6;
