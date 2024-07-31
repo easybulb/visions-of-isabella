@@ -79,7 +79,7 @@ header nav a:hover {
     letter-spacing: 1px;
     border: 2px solid #fafafa;
     padding: 7px;
-    border-radius: 25px 50px;
+    border-radius: 20px;
 }
 
 header #logo span:hover {
@@ -228,6 +228,10 @@ footer p {
     row-gap: 50px;
 }
 
+.centre {
+    text-align: center;
+  }
+
 
 /* ------------------------------------ Media Queries for tablets-- */
 @media screen and (min-width: 431px) {
@@ -310,8 +314,4 @@ footer p {
         height: auto;
       }
 
-  }
-
-  .centre {
-    text-align: center;
   }
