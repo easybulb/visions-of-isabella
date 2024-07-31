@@ -231,8 +231,8 @@ footer p {
   }
 
 
-/* ------------------------------------ Media Queries for tablets-- */
-@media screen and (min-width: 431px) {
+/* ------------------------------------ Media Queries for tablets -- */
+@media screen and (min-width: 432px) {
     /*--- Header for Home ---*/
     #header-home {
         background: url("../images/hero-large.png");
@@ -264,6 +264,10 @@ footer p {
     }
 
     /*--- Main ---*/
+    #welcome-section {
+        padding: 0 80px;
+    }
+
     .feature items container{
         display: flex;
         flex-wrap: wrap;
@@ -313,3 +317,21 @@ footer p {
       }
 
   }
+
+  /* ------------------------------------ Media Queries for large screens -- */
+  @media screen and (min-width: 800px) {
+    /*--- Main ---*/
+    #welcome-section {
+        padding: 0 400px;
+    }
+  }
+
+
+
+/* ------------------------------------ Media Queries for large screens -- */
+@media screen and (min-width: 1000px) {
+  /*--- Main ---*/
+  #welcome-section {
+      padding: 0 400px;
+  }
+}
