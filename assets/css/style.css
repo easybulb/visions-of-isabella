@@ -311,5 +311,23 @@ footer p {
         max-width: 450px;
         height: auto;
       }
-
+/*---------------------------------------About-Text styling--*/
+  }
+h1,h2 {
+    text-align: left;
+    color: #fafafa;
+  }
+  p {
+    width: 40%;
+    height: 50%;
+    color: #fafafa;
+    text-indent: 15px;
+    position: relative;
+    left:15px;
+    bottom: 20px;
+  }
+  #woman-artist {
+    background-image: url("../images/woman-artist.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
