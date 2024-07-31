@@ -210,27 +210,6 @@ footer p {
     padding-bottom: 10px;
 }
 
-/* ------------------------------------ Gallery-- */
-
-/*--gallery--*/
-  .gallery img {
-    max-height: 300px;
-    max-width: 300px;
-  }
-
-  .responsive {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    column-gap: 125px;
-    row-gap: 50px;
-}
-
-.centre {
-    text-align: center;
-  }
-
-
 /* ------------------------------------ Media Queries for tablets-- */
 @media screen and (min-width: 431px) {
     /*--- Header for Home ---*/
@@ -305,7 +284,7 @@ footer p {
     max-width: 300px;
   }
 
-  .responsive {
+  .gallery-responsive {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: minmax(100px, auto);
@@ -316,8 +295,8 @@ footer p {
 
 
 
-@media screen and (max-width: 500px) {
-    .responsive {
+@media screen and (min-width: 431px) {
+    .gallery-responsive {
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: minmax(100px, auto);
