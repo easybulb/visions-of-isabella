@@ -298,7 +298,25 @@ footer p {
 
 
 
-    /* ------------------------------------ Gallery-- */
+  /*--gallery--*/
+  .gallery img {
+    max-height: 200px;
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 100px;
+    column-gap: 125px;
+    row-gap: 50px;
+}
+
+
+
+@media screen and (max-width: 500px) {
     .responsive {
         display: grid;
         grid-template-columns: 1fr;
@@ -306,10 +324,14 @@ footer p {
         column-gap: 300px;
         row-gap: 50px;
     }
-    
+
     .gallery img {
         max-width: 450px;
         height: auto;
       }
 
+  }
+
+  .centre {
+    text-align: center;
   }
