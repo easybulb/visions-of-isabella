@@ -27,7 +27,7 @@ h1, h2 {
     padding: 30px;
 }
 
-/* ------------------------ Universal selector --- */
+/* ------------------------ Header --- */
 header {
     background: url("../images/head-portrait.png");
     /* --- Use this to position the image -- */
@@ -114,6 +114,10 @@ main {
     flex: 1 0 auto;
 }
 
+#welcome-section {
+    padding: 0 20px;
+}
+
 #feature-section {
     padding: 5px;
 }
@@ -152,6 +156,10 @@ main {
     font-size: 0.9rem;
     color: black;
     padding: 0 10px;
+}
+
+.feature-end-container {
+    padding: 20px;
 }
 
 
