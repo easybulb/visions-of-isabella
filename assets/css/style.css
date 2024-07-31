@@ -34,7 +34,7 @@ h1, h2 {
     background: url("../images/hero-mobile.png");
     /* --- Use this to position the image -- */
     background-position: center;
-    background-color: grey;
+    background-color: #000000;
     color: #fafafa;
     padding: 1rem 1rem;
     background-size: cover;
@@ -48,7 +48,7 @@ h1, h2 {
 }
 /* Header for the other pages */
 #header-general {
-    background-color: rgb(31, 26, 26);
+    background-color: #000000;
     color: #fafafafa;
     padding: 1rem 1rem;
     position: relative;
@@ -182,7 +182,7 @@ main {
 
 /* ------------------------------------ Footer-- */
 footer {
-    background-color: rgb(45, 24, 5);
+    background-color: #000000;
     color: #fafafa;
 }
 #socials {
