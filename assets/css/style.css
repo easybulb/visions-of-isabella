@@ -27,7 +27,9 @@ h1, h2 {
     padding: 30px;
 }
 
-/* ------------------------ Header --- */
+/* ------------------------------- Header --- */
+
+/* Header for home */
 #header-home {
     background: url("../images/head-portrait.png");
     /* --- Use this to position the image -- */
@@ -39,6 +41,19 @@ h1, h2 {
     background-repeat: no-repeat;
     position: relative;
     height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/* Header for the other pages */
+#header-general {
+    background-color: rgb(31, 26, 26);
+    color: #fafafafa;
+    padding: 1rem 1rem;
+    position: relative;
+    height: 13vh;
+    min-height: 13vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -216,7 +231,7 @@ footer p {
 
 /* ------------------------------------ Media Queries for tablets-- */
 @media screen and (min-width: 431px) {
-    /*--- Header ---*/
+    /*--- Header for Home ---*/
     #header-home {
         background: url("../images/head-landscape.png");
         background-size: cover;
