@@ -105,6 +105,46 @@ main {
     flex: 1 0 auto;
 }
 
+#feature-section {
+    padding: 5px;
+}
+
+.featured-artwork {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.featured-artwork article {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.featured-artwork img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.featured-artwork h3 {
+    margin: 5px 0 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.featured-artwork p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    padding: 0 10px;
+}
+
 
 /* ------------------------------------ Footer-- */
 footer {
