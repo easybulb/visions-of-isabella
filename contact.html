@@ -12,6 +12,19 @@
     <title>Visions of Isabella</title>
     <!--Css File Link-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--javascript for form submission popup-->
+    <script LANGUAGE="JavaScript">
+    function confirmSubmit()
+    {
+    var agree=confirm("Are you sure you wish to continue?");
+    if (agree)
+     return true ;
+    else
+     return false ;
+    }
+    </script>
+
 </head>
 
 <body>
@@ -44,7 +57,28 @@
         <section>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim tenetur sunt perspiciatis, ad consectetur recusandae molestias neque pariatur at iure perferendis iusto porro ipsa saepe quod ea a alias et.</p>
         </section>
+
+        <div>
+            <form action="" method="post" name="contact-form">
+                <div>
+                    <h2>Contact Form</h2>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="name" required>
+                    <br>
+                    <label for="message">Message</label>
+                    <textarea type="text" name="name" id="name" required rows="10" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" onclick="return confirmSubmit()">
+                </div>
+
+            </form>
+        </div>
     </main>
+
+
 
     <!----------------- Footer------------->
     <footer>
