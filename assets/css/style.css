@@ -320,11 +320,13 @@ h1,h2 {
   p {
     width: 40%;
     height: 50%;
-    color: #fafafa;
+    color: #fff6f6;
     text-indent: 15px;
     position: relative;
-    left:15px;
+    left:25px;
     bottom: 20px;
+    font-family: Anton ,sans-serif;
+    font-size: 1rem;
   }
   #woman-artist {
     background-image: url("../images/woman-artist.jpg");
