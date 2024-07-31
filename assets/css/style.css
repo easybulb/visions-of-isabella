@@ -318,7 +318,7 @@ footer p {
 
   }
 
-#woman-artist h1, #woman-artisth2 {
+#woman-artist h1, #woman-artist h2 {
     text-align: left;
     color: #fafafa;
   }
@@ -331,7 +331,7 @@ footer p {
     position: relative;
     left:25px;
     bottom: 20px;
-    font-family: Anton ,sans-serif;
+    font-family: "Rubik" ,sans-serif;
     font-size: 1rem;
   }
   #woman-artist {
