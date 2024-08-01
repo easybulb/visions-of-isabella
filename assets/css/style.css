@@ -319,7 +319,8 @@ main {
 }
 
 .form-buttons {
-    text-align: right;
+    text-align: center;
+    margin: 0 30%;
 }
 
 .form-buttons button {
