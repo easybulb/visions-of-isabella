@@ -80,7 +80,6 @@ header nav a:hover {
 }
 
 #logo span {
-    display: block;
     font-size: 140%;
     font-family: "Anton", sans-serif;
     text-align: center;
@@ -102,7 +101,8 @@ header #logo span:hover {
     font-size: 150%;
     font-weight: 300;
     list-style-type: none;
-    margin-top: 45%; /* ----- Moves Navbar Dropdown up and down on mobile-- */
+    margin-top: 45%;
+    /* ----- Moves Navbar Dropdown up and down on mobile-- */
 }
 
 /* ------------------------------------ Navbar Dropdown-- */
@@ -172,14 +172,14 @@ main {
     border-bottom: 2px solid #ddd;
 }
 
-.featured-artwork > h3 {
+.featured-artwork>h3 {
     margin: 10px 0 5px;
     font-size: 1.2rem;
     text-align: center;
     color: #000;
 }
 
-.featured-artwork > p {
+.featured-artwork>p {
     text-align: center;
     font-size: 0.9rem;
     color: #000;
@@ -192,33 +192,50 @@ main {
 
 /* ------------------------------------ About Main-- */
 
-#woman-artist h1,
+#woman-artist h1{
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: -20px;
+    border: 0px 30px;
+}
+
 #woman-artist h2 {
-    text-align: left;
-    color: #fafafa;
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    margin-top: -60px;
+    font-size: 25px;
+    border: 0px 700px;
+    display: block;
+    width: 100%;
 }
 
 #woman-artist p {
-    width: 40%;
+    width: 85%;
     height: 50%;
-    color: #fff6f6;
+    color: #000;
     text-indent: 15px;
     position: relative;
     left: 25px;
     bottom: 20px;
     font-family: "Rubik", sans-serif;
     font-size: 1rem;
+    margin-bottom: 40px;
 }
 
-#woman-artist {
-    background-image: url("../images/woman-artist2.jpg");
+.mobile-image {
+    background-image: url("../images/about-mobile-image.png");
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+    border: 10px solid #fff;
 
 }
 
 /* ------------------------------------ Gallery Page -- */
-#gallery-container{
+#gallery-container {
     width: 100%;
     box-sizing: border-box;
     padding: 0;
@@ -342,6 +359,34 @@ footer p {
     }
 
     /*-- Gallery --*/
-   
+    #woman-artist h1,
+    #woman-artist h2 {
+        text-align: left;
+        color: #fafafa;
+    }
+
+    #woman-artist p {
+        width: 40%;
+        height: 50%;
+        color: #fff6f6;
+        text-indent: 15px;
+        position: relative;
+        left: 25px;
+        bottom: 20px;
+        font-family: "Rubik", sans-serif;
+        font-size: 1rem;
+    }
+
+    #woman-artist {
+        background-image: url("../images/woman-artist2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .mobile-image {
+        display: none;
+    }
+
 
 }
