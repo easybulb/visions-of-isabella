@@ -64,6 +64,12 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 
 - **Social Links Hover Effects**: Interactive hover effects on social media links for better user engagement.
 
+## Testing
+<img src="./docs/Testing-Screenshot.png">
+
+## Deployment
+Deployed on Github pages.
+
 ## Credits/Technologies Used
 
 - **HTML5**: For structuring the content on the web.
