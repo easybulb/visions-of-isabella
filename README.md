@@ -22,7 +22,7 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 <img src="./docs/Homepage-mobile1.png" style="width: 30%">
 
 ### Gallery Wireframe
-
+<img src="./docs/Wireframe-about.png" style="width: 50%">
 ### About Wireframe
 
 ### Contact Wireframe
