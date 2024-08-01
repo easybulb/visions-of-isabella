@@ -28,6 +28,12 @@ h2 {
     padding-bottom: 30px;
 }
 
+#menu li a.current-page {
+    border-bottom: 2px solid #fcae04;
+    padding-bottom: 2px;
+    color: #fff;
+}
+
 /* ------------------------------- Header --- */
 
 /* Header for home */
@@ -74,6 +80,7 @@ header nav a:hover {
 }
 
 #logo span {
+    display: block;
     font-size: 140%;
     font-family: "Anton", sans-serif;
     text-align: center;
@@ -95,8 +102,7 @@ header #logo span:hover {
     font-size: 150%;
     font-weight: 300;
     list-style-type: none;
-    margin-top: 50%;
-    /* ----- Moves Navbar Dropdown up and down on mobile-- */
+    margin-top: 45%; /* ----- Moves Navbar Dropdown up and down on mobile-- */
 }
 
 /* ------------------------------------ Navbar Dropdown-- */
@@ -105,10 +111,10 @@ nav {
     width: 90%;
     text-align: center;
     height: 100%;
-    top: 80px;
     /* This moves nav menu up and down on large screens */
-    display: none;
+    top: 80px;
     /* Display property to none so it can only open when clicked on */
+    display: none;
 }
 
 /* ------------------------------------ Nav Toggle-- */
