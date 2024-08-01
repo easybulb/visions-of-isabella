@@ -70,10 +70,11 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 - **CSS3**: For styling the website.
 - **almostreal.me**: For project idea inspiration.
 - **Optimizilla**: For image optimization.
-- **Love Running Project**: For inspiration on toggle navigation menu on mobile.
+- **Love Running Project**: For inspiration on toggle navigation menu and favicon on mobile.
 - **Git & GitHub**: For version control and hosting the project.
 - **Canva**: For creating and optimizing images and graphics.
 - **Chatgpt AI**: For images.
+- **Favicon.io**: For Favicon generation.
 - **Google Fonts**: For typography.
 - **Foowebs**: For modal design.
 - **Mark Brisco - Code Institute**: For guidance on git and gitpod terminal.
