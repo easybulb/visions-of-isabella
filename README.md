@@ -9,7 +9,7 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits/Technologies Used](#creditstechnologies-used)
-- [Future Features](#future-features)
+- [Committers and Contributors](#creditstechnologies-used)
 
 ## UX Design (Wireframe)
 
@@ -75,3 +75,11 @@ Welcome to **Visions of Isabella**, a digital art portfolio showcasing the uniqu
 - **Canva**: For creating and optimizing images and graphics.
 - **Chatgpt AI**: For images.
 - **Google Fonts**: For typography.
+- **Foowebs**: For modal design.
+- **Mark Brisco - Code Institute**: For guidance on git and gitpod terminal.
+- **Amy Richardson - Code Institute**: General guidance.
+
+## Committers and Contributors
+- **Henry Ofodieze** (Team Lead)
+- **Florin Niculcea**
+- **Charles Mould**
