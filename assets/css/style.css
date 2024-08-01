@@ -28,6 +28,12 @@ h2 {
     padding-bottom: 30px;
 }
 
+#menu li a.current-page {
+    border-bottom: 2px solid #fcae04;
+    padding-bottom: 2px;
+    color: #fff;
+}
+
 /* ------------------------------- Header --- */
 
 /* Header for home */
