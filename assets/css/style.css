@@ -363,13 +363,13 @@ footer p {
     #woman-artist h2 {
         text-align: left;
         color: #fafafa;
+        margin-left: 22px;
     }
 
     #woman-artist p {
         width: 40%;
         height: 50%;
-        color: #fff6f6;
-        text-indent: 15px;
+        color: #fff;
         position: relative;
         left: 25px;
         bottom: 20px;
@@ -380,8 +380,9 @@ footer p {
     #woman-artist {
         background-image: url("../images/woman-artist2.jpg");
         background-size: cover;
+        object-fit: cover;
+        background-position: center;
         background-repeat: no-repeat;
-
     }
 
     .mobile-image {
