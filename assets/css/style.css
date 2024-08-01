@@ -275,6 +275,60 @@ main {
     position: relative;
 }
 
+/* ------------------------------------ Contact Page -- */
+.contact-form-title {
+    text-align: center;
+}
+
+.contact-form-desc {
+    text-align: center;
+}
+
+.contact-form-input {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;    
+    padding: 5px 5px;  
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input-box {
+    max-width: 30rem;
+}
+
+textarea {
+    max-width: 30rem;
+}
+
+.submit-button {
+    display: grid;
+    justify-content: center;
+    place-items: centre;
+    padding: 20px;
+
+}
+
+.submit-button input {
+    min-width: 50px;
+    max-width: 70px;
+    min-height: 50px;
+    min-width: 100px;
+}
+
+.contact-form-font {
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
+
 /* ------------------------------------ Footer-- */
 footer {
     background-color: #000000;
@@ -308,11 +362,11 @@ footer p {
     padding-bottom: 10px;
 }
 
-
-
 .centre {
     text-align: center;
 }
+
+
 
 
 /* ------------------------------------ Media Queries for tablets -- */
