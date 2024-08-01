@@ -28,12 +28,6 @@ h2 {
     padding-bottom: 30px;
 }
 
-#menu li a.current-page {
-    border-bottom: 2px solid #fcae04;
-    padding-bottom: 2px;
-    color: #fff;
-}
-
 /* ------------------------------- Header --- */
 
 /* Header for home */
@@ -104,6 +98,12 @@ header #logo span:hover {
     list-style-type: none;
     /* ----- Moves Navbar Dropdown up and down on mobile-- */
     margin-top: 45%;
+}
+
+#menu li a.current-page {
+    border-bottom: 2px solid #fcae04;
+    padding-bottom: 2px;
+    color: #fff;
 }
 
 /* ------------------------------------ Navbar Dropdown-- */
