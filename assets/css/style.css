@@ -193,7 +193,15 @@ main {
 }
 
 .feature-end-container {
-    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    border: 5px solid #000;
+    background-color: #fcae04;
+    margin: 0 40px 20px;
+}
+
+.feature-end-container p{
+    padding: 30px;
 }
 
 /* ------------------------------------ About Main-- */
@@ -401,4 +409,27 @@ footer p {
     }
 
 
+}
+
+/* ------ Media Queries for large screens 900px and over -- */
+@media screen and (min-width: 900px) {
+    .feature-end-container {
+        text-align: center;
+        font-weight: 600;
+        border: 5px solid #000;
+        background-color: #fcae04;
+        margin: 20px 180px 40px;
+    }
+    
+    .feature-end-container p{
+        padding: 40px;
+    }
+
+    #welcome-section p {
+        margin: 0 180px;
+    }
+
+    #feature-section {
+        margin: 0 60px;
+    }
 }
